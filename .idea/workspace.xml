@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e7ca48-599a-4c6b-93bf-771b5351fd2e" name="Changes" comment="New">
+    <list default="true" id="36e7ca48-599a-4c6b-93bf-771b5351fd2e" name="Changes" comment="Implemented basic GUI and added dataset and logo">
+      <change afterPath="$PROJECT_DIR$/Jupyter/TrashClassifier.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter/TrashClassifier.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/placeholder.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -21,6 +24,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -36,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "working__branch",
-    "last_opened_file_path": "C:/Users/djcum/PycharmProjects/trashClassifierPython/elements",
+    "last_opened_file_path": "C:/Users/djcum/PycharmProjects/trashClassifierPython/Jupyter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,10 +53,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\Jupyter" />
       <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\elements" />
       <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\Data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\SampleImages" />
+      <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython" />
       <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\elements" />
     </key>
   </component>
@@ -94,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717449769138</updated>
-      <workItem from="1717449774974" duration="3096000" />
+      <workItem from="1717449774974" duration="23536000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <option name="closed" value="true" />
@@ -112,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717449957568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented basic GUI and added dataset and logo">
+      <option name="closed" value="true" />
+      <created>1717533300569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717533300569</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,9 +137,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New" />
-    <option name="LAST_COMMIT_MESSAGE" value="New" />
+    <MESSAGE value="Implemented basic GUI and added dataset and logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented basic GUI and added dataset and logo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/trashClassifierPython$main.coverage" NAME="main Coverage Results" MODIFIED="1717450273771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trashClassifierPython$main.coverage" NAME="main Coverage Results" MODIFIED="1717574961436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
