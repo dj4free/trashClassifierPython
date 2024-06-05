@@ -71,44 +71,79 @@ def on_change(state, var_name, var_value):
 
 # UI Formatting / Markdown
 index = """
-<|text-center|
-<|layout|columns=3 9 3|
+<|layout|columns=1|
+
 <|column|
+<|{"elements/WasteWise.png"}|image|width=10vw|>
+
+
+|>
 |>
 
+<p></p>
+
+<|layout|columns=1|
 <|column|
-<|{"elements/WasteWise.png"}|image|width=40%|>
+<|text-center|
 
-#### Upload an Image
 
+## Upload an Image
+|>
+|>
+|>
+
+<|layout|columns=1 1|
+
+<|column|
+<|text-center|
 <|{content}|file_selector|extensions=.jpg,.png|on_change=on_change|>
 
 *Please upload a photo from your filesystem.*
-
-###### - OR -
-
-<|Random|button|on_action=button_pressed|>
-
-*Press for random sample image.*
-
-<|{img_path}|image|width=40%|>
-
-<|{prob}|indicator|value={prob}|min=0|max=100|width=40%|>
-
-### Prediction
-<|card|
-<|{prediction}|>
 |>
 |>
 
 <|column|
+<|text-center|
+<|Random|button|on_action=button_pressed|>
+
+*Press for random sample image.*
 |>
+|>
+|>
+
+
+<|layout|columns=1|
+<|text-center|
+<|column|
+<|{img_path}|image|width=40%|class_name=image-preview|>
+
+<|{prob}|indicator|value={prob}|min=0|max=100|width=15vw|>
+
+### Prediction:
+<|card class_name=custom-card|
+<|{prediction}|text|class_name=prediction-text|width=20vw|>
+{: .p1 .mb1 }
+|>
+|>
+
 |>
 |>
 """
+
+stylekit = {
+    "color_primary": "#4CAF50",  # Primary color
+    "color_secondary": "#FFC107",  # Secondary color
+    "color_background_light": "#F0F5F7",  # Light background color
+    "color_background_dark": "#263238",  # Dark background color
+    "color_paper_light": "#FFFFFF",  # Light paper color
+    "color_paper_dark": "#37474F",  # Dark paper color
+    "border_radius": 10,  # Border radius for rounded corners
+    "input_button_height": "50px",  # Height for buttons and inputs
+    "font_family": "'Roboto', sans-serif",  # Font family
+}
 
 app = Gui(page=index)
 
 if __name__ == '__main__':
     # use_reloader enables automatic reloading
-    app.run(use_reloader=True)
+    app.run(use_reloader=True, stylekit=stylekit, title="WasteWIse")

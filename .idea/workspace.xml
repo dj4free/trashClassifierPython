@@ -4,17 +4,211 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e7ca48-599a-4c6b-93bf-771b5351fd2e" name="Changes" comment="Implemented basic GUI and added dataset and logo">
-      <change afterPath="$PROJECT_DIR$/Jupyter/TrashClassifier.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jupyter/TrashClassifier.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/placeholder.png" afterDir="false" />
+    <list default="true" id="36e7ca48-599a-4c6b-93bf-771b5351fd2e" name="Changes" comment="UI functions with CNN_model. TODO: fix broken paths on some sample images when using random button">
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_307.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_308.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_310.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_311.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_315.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_316.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_317.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_318.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_323.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_324.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_325.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_326.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_372.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_373.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_374.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_380.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_381.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_382.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_388.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_389.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_390.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_398.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_399.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_400.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Food_Organics_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_331.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_332.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_334.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_335.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_336.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_339.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_342.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_343.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_344.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_347.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_348.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_349.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_352.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_456.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_457.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_458.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_459.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_465.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_466.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_467.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_468.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_473.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_474.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_476.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_477.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_482.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_483.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_484.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_485.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/Miscellaneous_Trash_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid11956.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid133732.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid135992.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_307.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_308.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_309.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_310.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_311.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_315.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_316.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_317.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_319.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_323.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_324.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_325.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_326.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_327.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_372.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_373.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_374.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_381.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_382.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_388.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_389.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_390.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_398.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_399.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Food Organics_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_331.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_332.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_334.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_335.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_336.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_339.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_341.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_342.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_343.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_347.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_348.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_349.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_351.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_456.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_457.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_459.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_466.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_467.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_468.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_473.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_474.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_476.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_482.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_483.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_484.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleImages/Miscellaneous Trash_7.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -24,6 +218,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -31,18 +228,23 @@
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2hO0MTmi33GqWWkDK0uVKOKR0kw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.main.executor": "Run",
+    "Python.verify_paths.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "working__branch",
     "last_opened_file_path": "C:/Users/djcum/PycharmProjects/trashClassifierPython/Jupyter",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,7 +305,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717449769138</updated>
-      <workItem from="1717449774974" duration="23536000" />
+      <workItem from="1717449774974" duration="36277000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <option name="closed" value="true" />
@@ -129,18 +331,29 @@
       <option name="project" value="LOCAL" />
       <updated>1717533300569</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UI functions with CNN_model. TODO: fix broken paths on some sample images when using random button">
+      <option name="closed" value="true" />
+      <created>1717575275141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717575275141</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New" />
     <MESSAGE value="Implemented basic GUI and added dataset and logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented basic GUI and added dataset and logo" />
+    <MESSAGE value="UI functions with CNN_model. TODO: fix broken paths on some sample images when using random button" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI functions with CNN_model. TODO: fix broken paths on some sample images when using random button" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/trashClassifierPython$main.coverage" NAME="main Coverage Results" MODIFIED="1717574961436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trashClassifierPython$main.coverage" NAME="main Coverage Results" MODIFIED="1717627371585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trashClassifierPython$verify_paths.coverage" NAME="verify_paths Coverage Results" MODIFIED="1717575640420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
