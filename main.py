@@ -3,14 +3,7 @@ import numpy as np
 from PIL import Image
 from taipy.gui import Gui
 import random
-#from tensorflow.keras.utils import plot_model
 from tensorflow.keras import models
-
-
-
-# Debugging information
-print("Current working directory:", os.getcwd())
-print("Contents of Jupyter directory:", os.listdir("Jupyter"))
 
 os.environ["PATH"] += os.pathsep + 'C:\\Users\\djcum\\Graphviz-11.0.0-win64\\bin'
 
