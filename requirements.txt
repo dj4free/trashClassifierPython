@@ -1,0 +1,6 @@
+numpy~=1.26.4
+Pillow~=10.3.0
+taipy-gui
+tensorflow~=2.16.1
+h5py
+taipy~=3.1.1

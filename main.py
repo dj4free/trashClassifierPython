@@ -3,16 +3,22 @@ import numpy as np
 from PIL import Image
 from taipy.gui import Gui
 import random
-from tensorflow.keras.utils import plot_model
+#from tensorflow.keras.utils import plot_model
 from tensorflow.keras import models
+#import pydot
+
+
+# Debugging information
+print("Current working directory:", os.getcwd())
+print("Contents of Jupyter directory:", os.listdir("Jupyter"))
 
 os.environ["PATH"] += os.pathsep + 'C:\\Users\\djcum\\Graphviz-11.0.0-win64\\bin'
 
 # Define Model
-cnn_model = models.load_model('Jupyter\\TrashClassifier.h5')
+cnn_model = models.load_model('Jupyter/TrashClassifier.h5')
 
 # Plot the model
-plot_model(cnn_model, to_file='Jupyter\\cnn_visualization.png', show_shapes=True, show_layer_names=True)
+#plot_model(cnn_model, to_file='Jupyter/cnn_visualization.png', show_shapes=True, show_layer_names=True)
 
 # Variables
 img_path = "elements/placeholder.png"
@@ -150,4 +156,4 @@ app = Gui(page=index)
 
 if __name__ == '__main__':
     # use_reloader enables automatic reloading
-    app.run(use_reloader=True, stylekit=stylekit, title="WasteWIse")
+    app.run(use_reloader=True, stylekit=stylekit, title="WasteWise", host='0.0.0.0', port=5000)
