@@ -91,7 +91,7 @@ index = """
 <|text-center|
 
 
-## Upload an Image
+## Choose Upload/Random Image
 |>
 |>
 |>
