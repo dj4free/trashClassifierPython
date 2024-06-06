@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e7ca48-599a-4c6b-93bf-771b5351fd2e" name="Changes" comment="Deleted unnecessary files for Heroku upload limit" />
+    <list default="true" id="36e7ca48-599a-4c6b-93bf-771b5351fd2e" name="Changes" comment="Added procfile for Digital Ocean" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717449769138</updated>
       <workItem from="1717449774974" duration="36627000" />
-      <workItem from="1717691163570" duration="16438000" />
+      <workItem from="1717691163570" duration="17079000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <option name="closed" value="true" />
@@ -219,7 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717709937173</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Deleted unnecessary files for Heroku upload limit">
+      <option name="closed" value="true" />
+      <created>1717712187663</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717712187663</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added procfile for Digital Ocean">
+      <option name="closed" value="true" />
+      <created>1717712215734</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717712215734</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +251,8 @@
     <MESSAGE value="Created Dockerfile and mounted image" />
     <MESSAGE value="Changed host output" />
     <MESSAGE value="Deleted unnecessary files for Heroku upload limit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted unnecessary files for Heroku upload limit" />
+    <MESSAGE value="Added procfile for Digital Ocean" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added procfile for Digital Ocean" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/trashClassifierPython$main.coverage" NAME="main Coverage Results" MODIFIED="1717702211423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
