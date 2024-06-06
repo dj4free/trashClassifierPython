@@ -69,11 +69,20 @@ def on_change(state, var_name, var_value):
 
 # on_init function
 def on_init(state):
-    print("Initializing application...")
-    state.img_path = "elements/placeholder.png"
-    state.prob = 0
-    state.prediction = "Please upload or randomly choose an image to get started."
-    state.content = ""
+    try:
+        print("Initializing application...")
+        absolute_path = os.path.abspath("elements/placeholder.png")
+        print(f"Resolved absolute path: {absolute_path}")
+        if os.path.exists(absolute_path):
+            state.img_path = absolute_path
+            state.content = absolute_path  # Initialize content with the placeholder image
+            print(f"Initial img_path set to: {state.img_path}")
+        else:
+            print(f"File not found: {absolute_path}")
+        state.prob = 0
+        state.prediction = "Please upload an image to get started."
+    except Exception as e:
+        print(f"Error in on_init: {e}")
 
 
 # UI Formatting / Markdown
@@ -125,9 +134,9 @@ index = """
 <|layout|columns=1|width=20vw|
 <|text-center|
 <|column|
-<|{img_path}|image|width=20vw|>
+<|{img_path}|image|width=35vw|>
 
-<|{prob}|indicator|value={prob}|min=0|max=100|width=25vw|>
+<|{prob}|indicator|value={prob}|min=0|max=100|width=40vw|>
 
 ### Prediction:
 <|{prediction}|text|>
