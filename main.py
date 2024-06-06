@@ -17,9 +17,6 @@ os.environ["PATH"] += os.pathsep + 'C:\\Users\\djcum\\Graphviz-11.0.0-win64\\bin
 # Define Model
 cnn_model = models.load_model('Jupyter/TrashClassifier.h5')
 
-# Plot the model
-#plot_model(cnn_model, to_file='Jupyter/cnn_visualization.png', show_shapes=True, show_layer_names=True)
-
 # Variables
 img_path = "elements/placeholder.png"
 content = ""
