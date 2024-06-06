@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e7ca48-599a-4c6b-93bf-771b5351fd2e" name="Changes" comment="Added procfile for Digital Ocean">
+    <list default="true" id="36e7ca48-599a-4c6b-93bf-771b5351fd2e" name="Changes" comment="Changed server port to be compatible with Digital Ocean">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jupyter/cnn_visualization.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717449769138</updated>
       <workItem from="1717449774974" duration="36627000" />
-      <workItem from="1717691163570" duration="17824000" />
+      <workItem from="1717691163570" duration="19747000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <option name="closed" value="true" />
@@ -246,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717712322880</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Changed server port to be compatible with Digital Ocean">
+      <option name="closed" value="true" />
+      <created>1717713017568</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717713017568</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,10 +272,11 @@
     <MESSAGE value="Changed host output" />
     <MESSAGE value="Deleted unnecessary files for Heroku upload limit" />
     <MESSAGE value="Added procfile for Digital Ocean" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added procfile for Digital Ocean" />
+    <MESSAGE value="Changed server port to be compatible with Digital Ocean" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed server port to be compatible with Digital Ocean" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/trashClassifierPython$main.coverage" NAME="main Coverage Results" MODIFIED="1717712392885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trashClassifierPython$main.coverage" NAME="main Coverage Results" MODIFIED="1717715315833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trashClassifierPython$verify_paths.coverage" NAME="verify_paths Coverage Results" MODIFIED="1717575640420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trashClassifierPython$Test.coverage" NAME="Test Coverage Results" MODIFIED="1717692531759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

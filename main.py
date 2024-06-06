@@ -67,6 +67,15 @@ def on_change(state, var_name, var_value):
         state.prediction = f"WasteWise is {state.prob}% confident that this is {top_pred} waste."
 
 
+# on_init function
+def on_init(state):
+    print("Initializing application...")
+    state.img_path = "elements/placeholder.png"
+    state.prob = 0
+    state.prediction = "Please upload or randomly choose an image to get started."
+    state.content = ""
+
+
 # UI Formatting / Markdown
 index = """
 <|layout|columns=1|
@@ -96,7 +105,7 @@ index = """
 
 <|column|
 <|text-center|
-<|{content}|file_selector|extensions=.jpg,.png|on_change=on_change|>
+<|{content}|file_selector|extensions=.jpg|>
 
 *Please upload a photo from your filesystem.*
 |>
@@ -121,8 +130,7 @@ index = """
 <|{prob}|indicator|value={prob}|min=0|max=100|width=25vw|>
 
 ### Prediction:
-<|{prediction}|text|width=75%|>
-{: .pl5 .pr5 .m-auto }
+<|{prediction}|text|>
 |>
 
 |>
@@ -146,4 +154,4 @@ app = Gui(page=index)
 
 if __name__ == '__main__':
     # use_reloader enables automatic reloading
-    app.run(debug=False, stylekit=stylekit, title="WasteWise", host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
+    app.run(debug=False, stylekit=stylekit, title="WasteWise", host='0.0.0.0', port=int(os.environ.get("PORT", 8080)))
