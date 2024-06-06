@@ -146,4 +146,4 @@ app = Gui(page=index)
 
 if __name__ == '__main__':
     # use_reloader enables automatic reloading
-    app.run(use_reloader=True, stylekit=stylekit, title="WasteWise", host='0.0.0.0', port=5000)
+    app.run(debug=False, stylekit=stylekit, title="WasteWise", host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
