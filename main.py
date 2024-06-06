@@ -5,7 +5,7 @@ from taipy.gui import Gui
 import random
 #from tensorflow.keras.utils import plot_model
 from tensorflow.keras import models
-#import pydot
+
 
 
 # Debugging information
