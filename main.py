@@ -3,10 +3,16 @@ import numpy as np
 from PIL import Image
 from taipy.gui import Gui
 import random
+from tensorflow.keras.utils import plot_model
 from tensorflow.keras import models
 
+os.environ["PATH"] += os.pathsep + 'C:\\Users\\djcum\\Graphviz-11.0.0-win64\\bin'
+
 # Define Model
-cnn_model = models.load_model("Jupyter\\TrashClassifier.h5")
+cnn_model = models.load_model('Jupyter\\TrashClassifier.h5')
+
+# Plot the model
+plot_model(cnn_model, to_file='Jupyter\\cnn_visualization.png', show_shapes=True, show_layer_names=True)
 
 # Variables
 img_path = "elements/placeholder.png"
@@ -45,18 +51,14 @@ def predict_img(model, path_to_image):
 # Define function to pick random image sample on button press
 def button_pressed(state):
     print("Button pressed")
-    files = os.listdir("SampleImages")
+    files = os.listdir("sampleImages")
     images = [file for file in files if file.endswith(('.jpg', '.png'))]
-    if not images:
-        state.prediction = "No images found in the SampleImages directory."
-        print("No images found in the SampleImages directory.")
-        return
     random_image = random.choice(images)
-    state.img_path = os.path.abspath(os.path.join("SampleImages", random_image))
+    state.img_path = os.path.abspath(os.path.join("sampleImages", random_image))
     print(f"Selected random image: {state.img_path}")
     top_prob, top_pred = predict_img(cnn_model, state.img_path)
     state.prob = round(top_prob * 100, 2)
-    state.prediction = f"WasteWise is {state.prob}% confident that this is {top_pred}."
+    state.prediction = f"WasteWise is {state.prob}% confident that this is {top_pred} waste."
     state.content = state.img_path  # Ensure content is updated
 
 
@@ -66,7 +68,7 @@ def on_change(state, var_name, var_value):
         state.img_path = var_value
         top_prob, top_pred = predict_img(cnn_model, var_value)
         state.prob = round(top_prob * 100, 2)
-        state.prediction = f"WasteWise is {state.prob}% confident that this is {top_pred}."
+        state.prediction = f"WasteWise is {state.prob}% confident that this is {top_pred} waste."
 
 
 # UI Formatting / Markdown
@@ -74,15 +76,17 @@ index = """
 <|layout|columns=1|
 
 <|column|
-<|{"elements/WasteWise.png"}|image|width=10vw|>
+<|text-center|
+<|{"elements/WasteWise.png"}|image|width=20vw|>
+{: .half-transparent}
 
-
+|>
 |>
 |>
 
 <p></p>
 
-<|layout|columns=1|
+<|layout|columns= 1|
 <|column|
 <|text-center|
 
@@ -111,25 +115,25 @@ index = """
 |>
 |>
 
+<p></p><p></p><p></p><p></p>
 
-<|layout|columns=1|
+<|layout|columns=1|width=20vw|
 <|text-center|
 <|column|
-<|{img_path}|image|width=40%|class_name=image-preview|>
+<|{img_path}|image|width=20vw|>
 
-<|{prob}|indicator|value={prob}|min=0|max=100|width=15vw|>
+<|{prob}|indicator|value={prob}|min=0|max=100|width=25vw|>
 
 ### Prediction:
-<|card class_name=custom-card|
-<|{prediction}|text|class_name=prediction-text|width=20vw|>
-{: .p1 .mb1 }
-|>
+<|{prediction}|text|width=75%|>
+{: .pl5 .pr5 .m-auto }
 |>
 
 |>
 |>
 """
 
+# StyleKit variables found at https://docs.taipy.io/en/develop/manuals/gui/styling/stylekit/
 stylekit = {
     "color_primary": "#4CAF50",  # Primary color
     "color_secondary": "#FFC107",  # Secondary color
