@@ -3,24 +3,12 @@ import numpy as np
 from PIL import Image
 from taipy.gui import Gui
 import random
-#from tensorflow.keras.utils import plot_model
 from tensorflow.keras import models
-#import pydot
 
-
-# Debugging information
-print("Current working directory:", os.getcwd())
-print("Contents of Jupyter directory:", os.listdir("Jupyter"))
-
-os.environ["PATH"] += os.pathsep + 'C:\\Users\\djcum\\Graphviz-11.0.0-win64\\bin'
-
-# Define Model
+# Define Model *best_model from TrashClassifier.ipynb*
 cnn_model = models.load_model('Jupyter/TrashClassifier.h5')
 
-# Plot the model
-#plot_model(cnn_model, to_file='Jupyter/cnn_visualization.png', show_shapes=True, show_layer_names=True)
-
-# Variables
+# Init Variables
 img_path = "elements/placeholder.png"
 content = ""
 prob = 0
@@ -41,21 +29,42 @@ class_names = {
 
 # Define function to predict image input
 def predict_img(model, path_to_image):
+    """
+    Predicts the class of the given image using the provided model.
+
+    Parameters: - model (tensorflow.keras.Model): The pre-trained CNN model. *This is default to best_model from
+                TrashClassifier.ipynb* - path_to_image (str): Path to the image file.
+
+    Returns:
+    - top_prob (float): The highest probability of the predicted class.
+    - class_pred (str): The name of the predicted class.
+    """
     img = Image.open(path_to_image)
     img = img.convert('RGB')
-    img = img.resize((128, 128))  # Ensure the image is resized to 128x128
+    img = img.resize((128, 128))
     data = np.asarray(img)
     data = data / 255.0
-    data = np.expand_dims(data, axis=0)  # Add batch dimension
+    data = np.expand_dims(data, axis=0)
     probs = model.predict(data)
     top_prob = probs.max()
-    top_pred = class_names[np.argmax(probs)]
+    class_pred = class_names[np.argmax(probs)]
 
-    return top_prob, top_pred
+    return top_prob, class_pred
 
 
 # Define function to pick random image sample on button press
 def button_pressed(state):
+    """
+        Handles 'Random' button action.
+        Selects an image at random from the 'sampleImages' directory.
+        Updates the image displayed to the randomly chosen image and updates the Prediction state.
+
+        Parameters:
+        - state (taipy.gui.State): The state 'Random' button.
+
+        Returns:
+        - N/A
+        """
     print("Button pressed")
     files = os.listdir("sampleImages")
     images = [file for file in files if file.endswith(('.jpg', '.png'))]
@@ -65,14 +74,26 @@ def button_pressed(state):
     top_prob, top_pred = predict_img(cnn_model, state.img_path)
     state.prob = round(top_prob * 100, 2)
     state.prediction = f"WasteWise is {state.prob}% confident that this is {top_pred} waste."
-    state.content = state.img_path  # Ensure content is updated
+    state.content = state.img_path  # Make sure content is updated
 
 
 # Define actions when image is uploaded
-def on_change(state, var_name, var_value):
+def on_change(state, var_name, new_img_path):
+    """
+        Handles the upload image action.
+        Updates the image displayed to the uploaded image and updates the Prediction state.
+
+        Parameters:
+        - state (taipy.gui.State): The state file_selector 'upload' button.
+        - var_name (str): The name of the variable that triggered the change, defaulted to "content".
+        - new_img_path (any): The new path to the image that was uploaded.
+
+        Returns:
+        - N/A
+        """
     if var_name == "content":
-        state.img_path = var_value
-        top_prob, top_pred = predict_img(cnn_model, var_value)
+        state.img_path = new_img_path
+        top_prob, top_pred = predict_img(cnn_model, new_img_path)
         state.prob = round(top_prob * 100, 2)
         state.prediction = f"WasteWise is {state.prob}% confident that this is {top_pred} waste."
 
@@ -90,6 +111,7 @@ index = """
 |>
 |>
 
+
 <p></p>
 
 <|layout|columns= 1|
@@ -106,7 +128,7 @@ index = """
 
 <|column|
 <|text-center|
-<|{content}|file_selector|extensions=.jpg,.png|on_change=on_change|>
+<|{content}|file_selector|extensions=.jpg|on_change=onchange|>
 
 *Please upload a photo from your filesystem.*
 |>
@@ -126,13 +148,12 @@ index = """
 <|layout|columns=1|width=20vw|
 <|text-center|
 <|column|
-<|{img_path}|image|width=20vw|>
+<|{img_path}|image|width=35vw|>
 
-<|{prob}|indicator|value={prob}|min=0|max=100|width=25vw|>
+<|{prob}|indicator|value={prob}|min=0|max=100|width=40vw|>
 
 ### Prediction:
-<|{prediction}|text|width=75%|>
-{: .pl5 .pr5 .m-auto }
+<|{prediction}|text|>
 |>
 
 |>
@@ -156,4 +177,4 @@ app = Gui(page=index)
 
 if __name__ == '__main__':
     # use_reloader enables automatic reloading
-    app.run(use_reloader=True, stylekit=stylekit, title="WasteWise", host='0.0.0.0', port=5000)
+    app.run(debug=False, stylekit=stylekit, title="WasteWise", host='0.0.0.0', port=int(os.environ.get("PORT", 8080)))
