@@ -5,8 +5,6 @@ from taipy.gui import Gui
 import random
 from tensorflow.keras import models
 
-os.environ["PATH"] += os.pathsep + 'C:\\Users\\djcum\\Graphviz-11.0.0-win64\\bin'
-
 # Define Model
 cnn_model = models.load_model('Jupyter/TrashClassifier.h5')
 
@@ -31,21 +29,42 @@ class_names = {
 
 # Define function to predict image input
 def predict_img(model, path_to_image):
+    """
+    Predicts the class of the given image using the provided model.
+
+    Parameters: - model (tensorflow.keras.Model): The pre-trained CNN model. *This is default to best_model from
+                TrashClassifier.ipynb* - path_to_image (str): Path to the image file.
+
+    Returns:
+    - top_prob (float): The highest probability of the predicted class.
+    - class_pred (str): The name of the predicted class.
+    """
     img = Image.open(path_to_image)
     img = img.convert('RGB')
-    img = img.resize((128, 128))  # Ensure the image is resized to 128x128
+    img = img.resize((128, 128))
     data = np.asarray(img)
     data = data / 255.0
-    data = np.expand_dims(data, axis=0)  # Add batch dimension
+    data = np.expand_dims(data, axis=0)
     probs = model.predict(data)
     top_prob = probs.max()
-    top_pred = class_names[np.argmax(probs)]
+    class_pred = class_names[np.argmax(probs)]
 
-    return top_prob, top_pred
+    return top_prob, class_pred
 
 
 # Define function to pick random image sample on button press
 def button_pressed(state):
+    """
+        Handles 'Random' button action.
+        Selects an image at random from the 'sampleImages' directory.
+        Updates the image displayed to the randomly chosen image and updates the Prediction state.
+
+        Parameters:
+        - state (taipy.gui.State): The state 'Random' button.
+
+        Returns:
+        - N/A
+        """
     print("Button pressed")
     files = os.listdir("sampleImages")
     images = [file for file in files if file.endswith(('.jpg', '.png'))]
@@ -55,34 +74,28 @@ def button_pressed(state):
     top_prob, top_pred = predict_img(cnn_model, state.img_path)
     state.prob = round(top_prob * 100, 2)
     state.prediction = f"WasteWise is {state.prob}% confident that this is {top_pred} waste."
-    state.content = state.img_path  # Ensure content is updated
+    state.content = state.img_path  # Make sure content is updated
 
 
 # Define actions when image is uploaded
-def on_change(state, var_name, var_value):
+def on_change(state, var_name, new_img_path):
+    """
+        Handles the upload image action.
+        Updates the image displayed to the uploaded image and updates the Prediction state.
+
+        Parameters:
+        - state (taipy.gui.State): The state file_selector 'upload' button.
+        - var_name (str): The name of the variable that triggered the change, defaulted to "content".
+        - new_img_path (any): The new path to the image that was uploaded.
+
+        Returns:
+        - N/A
+        """
     if var_name == "content":
-        state.img_path = var_value
-        top_prob, top_pred = predict_img(cnn_model, var_value)
+        state.img_path = new_img_path
+        top_prob, top_pred = predict_img(cnn_model, new_img_path)
         state.prob = round(top_prob * 100, 2)
         state.prediction = f"WasteWise is {state.prob}% confident that this is {top_pred} waste."
-
-
-# on_init function
-def on_init(state):
-    try:
-        print("Initializing application...")
-        absolute_path = os.path.abspath("elements/placeholder.png")
-        print(f"Resolved absolute path: {absolute_path}")
-        if os.path.exists(absolute_path):
-            state.img_path = absolute_path
-            state.content = absolute_path  # Initialize content with the placeholder image
-            print(f"Initial img_path set to: {state.img_path}")
-        else:
-            print(f"File not found: {absolute_path}")
-        state.prob = 0
-        state.prediction = "Please upload an image to get started."
-    except Exception as e:
-        print(f"Error in on_init: {e}")
 
 
 # UI Formatting / Markdown
