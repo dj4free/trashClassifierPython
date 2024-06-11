@@ -64,7 +64,7 @@ The model's performance is evaluated using K-fold cross-validation, yielding met
 - `sampleImageRandom.py`: Script for random image selection.
 
 ## References
-Single, Sam, Iranmanesh, Saeid, and Raad, Raad. (2023). RealWaste. UCI Machine Learning Repository. [DOI](https://doi.org/10.24432/C5SS4G).
+[DOI](https://doi.org/10.24432/C5SS4G) by Single, Sam, Iranmanesh, Saeid, and Raad, Raad. (2023). RealWaste. UCI Machine Learning Repository.
 
 [Keras Conv2D layers](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D)
 
