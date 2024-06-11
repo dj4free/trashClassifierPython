@@ -24,7 +24,7 @@ RUN adduser \
     appuser
 
 # Copy the requirements file into the container
-COPY requirements.txt /app/requirements.txt
+COPY ../requirements.txt /app/requirements.txt
 
 # Install dependencies and Graphviz
 RUN --mount=type=cache,target=/root/.cache/pip \
@@ -34,7 +34,7 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 USER appuser
 
 # Copy the source code into the container.
-COPY . .
+COPY .. .
 
 # Expose the port that the application listens on.
 EXPOSE 8080

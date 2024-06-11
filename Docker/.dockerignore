@@ -11,7 +11,7 @@
 **/.dockerignore
 **/.env
 **/.git
-**/.gitignore
+../.venv/.gitignore
 **/.project
 **/.settings
 **/.toolstarget
