@@ -37,7 +37,7 @@ USER appuser
 COPY . .
 
 # Expose the port that the application listens on.
-EXPOSE 5000
+EXPOSE 8080
 
 # Run the application.
 CMD ["python", "main.py"]
