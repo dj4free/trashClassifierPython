@@ -4,11 +4,1302 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e7ca48-599a-4c6b-93bf-771b5351fd2e" name="Changes" comment="Added Jupyter requirements at model_requirements.txt">
+    <list default="true" id="36e7ca48-599a-4c6b-93bf-771b5351fd2e" name="Changes" comment="Modified Jupyter Model and uploaded new best_model">
+      <change afterPath="$PROJECT_DIR$/data/Cleaned_CSV.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_139.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_147.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_156.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_163.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_169.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_172.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_175.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_176.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_177.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_179.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_181.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_182.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_183.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_185.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_188.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_189.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_190.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_193.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_196.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_199.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_208.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_209.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_214.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_216.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_217.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_219.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_220.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_223.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_226.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_227.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_228.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_230.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_231.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_232.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_233.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_237.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_238.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_239.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_240.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_241.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_242.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_243.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_245.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_246.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_247.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_248.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_249.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_251.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_252.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_253.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_254.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_255.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_256.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_257.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_258.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_259.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_260.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_261.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_262.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_264.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_265.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_266.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_267.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_268.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_269.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_271.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_272.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_273.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_274.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_275.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_276.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_277.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_278.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_279.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_280.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_281.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_282.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_283.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_284.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_285.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_286.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_287.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_288.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_289.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_290.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_291.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_292.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_293.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_294.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_295.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_296.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_297.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_298.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_299.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_302.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_303.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_304.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_306.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_313.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_314.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_320.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_321.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_322.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_328.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_329.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_330.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_331.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_332.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_334.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_335.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_336.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_337.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_338.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_339.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_342.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_343.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_344.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_345.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_346.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_347.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_348.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_349.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_352.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_353.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_354.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_355.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_356.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_357.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_358.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_359.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_360.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_361.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_362.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_363.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_364.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_365.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_366.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_367.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_368.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_369.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_370.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_371.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_375.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_376.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_377.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_378.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_379.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_383.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_385.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_386.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_387.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_391.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_392.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_393.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_394.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_395.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_396.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_397.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_405.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_407.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_408.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_411.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_64.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_78.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_88.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_93.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_94.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_95.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_96.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_97.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_98.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_139.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_147.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_156.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_163.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_169.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_172.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_175.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_176.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_177.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_179.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_181.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_182.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_183.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_185.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_188.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_189.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_190.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_193.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_196.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_199.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_208.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_209.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_214.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_216.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_217.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_219.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_220.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_223.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_226.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_227.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_228.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_230.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_231.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_232.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_233.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_237.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_238.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_239.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_240.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_241.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_242.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_243.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_245.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_246.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_247.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_248.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_249.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_251.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_252.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_253.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_254.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_255.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_256.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_257.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_258.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_259.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_260.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_261.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_262.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_264.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_265.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_266.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_267.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_268.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_269.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_271.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_272.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_273.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_274.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_275.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_276.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_277.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_278.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_279.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_280.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_281.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_282.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_283.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_284.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_285.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_286.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_287.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_288.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_289.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_290.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_291.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_292.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_293.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_294.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_295.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_296.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_297.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_298.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_299.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_302.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_303.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_304.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_306.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_307.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_308.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_310.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_311.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_313.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_314.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_315.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_316.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_317.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_318.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_320.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_321.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_322.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_323.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_324.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_325.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_326.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_328.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_329.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_330.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_337.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_338.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_345.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_346.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_353.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_354.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_355.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_356.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_357.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_358.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_359.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_360.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_361.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_362.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_363.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_364.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_365.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_366.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_367.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_368.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_369.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_370.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_371.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_372.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_373.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_374.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_375.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_376.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_377.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_378.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_379.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_380.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_381.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_382.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_383.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_385.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_386.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_387.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_388.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_389.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_390.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_391.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_392.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_393.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_394.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_395.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_396.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_397.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_398.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_399.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_400.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_405.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_407.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_408.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_411.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_412.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_413.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_414.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_415.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_416.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_417.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_418.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_419.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_420.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_421.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_422.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_423.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_424.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_425.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_426.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_427.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_428.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_429.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_430.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_431.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_432.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_433.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_434.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_435.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_436.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_437.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_438.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_439.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_440.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_441.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_442.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_443.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_444.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_445.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_446.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_447.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_448.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_449.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_451.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_452.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_453.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_454.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_455.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_460.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_461.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_462.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_463.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_464.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_469.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_470.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_471.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_472.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_475.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_478.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_479.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_481.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_486.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_487.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_488.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_489.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_490.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_491.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_492.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_493.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_494.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_495.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_64.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_78.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_88.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_93.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_94.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_95.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_96.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_97.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_98.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleImageRandom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jupyter/TrashClassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/TrashClassifier.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jupyter/model_requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/model_requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/WasteWise.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Prepared_trash_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Prepared_trash_data_local.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_434.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_435.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_436.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_437.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_438.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_442.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_443.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_444.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_445.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_446.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_450.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_451.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_452.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_453.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_454.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_459.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_460.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_461.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Cardboard_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_307.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_307.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_308.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_308.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_309.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_309.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_310.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_310.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_311.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_311.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_315.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_315.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_316.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_316.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_317.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_317.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_318.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_318.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_319.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_319.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_323.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_323.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_324.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_324.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_325.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_325.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_326.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_326.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_327.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_327.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_372.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_372.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_373.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_373.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_374.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_374.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_380.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_380.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_381.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_381.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_382.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_382.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_388.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_388.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_389.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_389.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_390.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_390.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_398.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_398.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_399.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_399.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Food_Organics_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Food_Organics/Food_Organics_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_201.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_203.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_204.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_205.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_208.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_209.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_210.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_211.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_212.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_216.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_218.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_219.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_221.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_225.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_226.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_227.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_228.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_229.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_353.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_355.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_360.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_361.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_368.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_369.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_371.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_372.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_378.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Glass_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_409.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_410.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_411.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_412.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_413.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_417.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_418.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_419.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_421.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_422.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_425.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_427.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_428.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_429.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_430.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_433.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_434.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_435.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_436.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_437.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_438.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_738.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_739.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_740.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_741.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_742.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_746.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_747.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_748.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_749.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_754.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_755.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_756.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_757.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_758.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_762.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_763.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_764.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_765.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_766.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Metal_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_31.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_331.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_331.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_332.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_332.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_333.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_333.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_334.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_334.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_335.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_335.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_336.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_336.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_339.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_339.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_340.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_340.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_341.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_341.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_342.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_342.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_343.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_343.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_344.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_344.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_347.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_347.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_348.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_348.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_349.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_349.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_350.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_350.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_351.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_351.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_352.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_352.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_456.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_456.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_457.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_457.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_458.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_458.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_459.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_459.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_465.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_465.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_466.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_466.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_467.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_467.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_468.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_468.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_473.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_473.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_474.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_474.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_476.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_476.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_477.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_477.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_482.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_482.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_483.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_483.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_484.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_484.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_485.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_485.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Miscellaneous_Trash_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/realwaste/realwaste-main/RealWaste/Miscellaneous_Trash/Miscellaneous_Trash_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_402.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_405.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_406.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_407.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_410.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_411.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_412.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_413.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_415.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_418.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_419.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_421.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_422.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_423.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_427.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_428.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_429.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_430.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_431.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_434.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_435.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_436.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_437.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_438.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_439.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_467.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_468.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_469.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_470.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_471.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_476.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_478.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_479.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_480.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_484.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_486.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_487.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_488.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_492.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_493.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_494.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_495.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_496.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Paper_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_338.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_339.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_341.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_342.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_343.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_346.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_347.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_348.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_349.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_351.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_355.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_357.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_358.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_359.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_360.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_364.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_365.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_366.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_367.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_368.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_863.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_864.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_865.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_866.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_867.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_868.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_871.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_872.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_873.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_874.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_875.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_876.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_879.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_880.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_881.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_882.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_883.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_884.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_887.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_888.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_889.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_891.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_892.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_895.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_896.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_897.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_898.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_899.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_903.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_904.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_905.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_906.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_907.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Plastic_908.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_236.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_238.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_239.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_244.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_246.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_247.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_253.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_254.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_410.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_411.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_412.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_413.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_418.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_419.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_421.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_422.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleImages/Vegetation_5.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +1309,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
         <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -53,33 +1344,37 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.verify_paths.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/djcum/PycharmProjects/trashClassifierPython/Jupyter&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.SampleImage_Randomizer.executor": "Run",
+    "Python.Test.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.rename.executor": "Run",
+    "Python.verify_paths.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/djcum/PycharmProjects/trashClassifierPython",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\data" />
       <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\Jupyter" />
       <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\elements" />
       <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\Data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\data" />
       <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\Jupyter" />
       <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython\SampleImages" />
       <recent name="C:\Users\djcum\PycharmProjects\trashClassifierPython" />
@@ -130,6 +1425,7 @@
       <workItem from="1717691163570" duration="13810000" />
       <workItem from="1718058291014" duration="2320000" />
       <workItem from="1718078282078" duration="367000" />
+      <workItem from="1718134815814" duration="2220000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <option name="closed" value="true" />
@@ -221,8 +1517,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added Jupyter requirements at model_requirements.txt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/trashClassifierPython$main.coverage" NAME="main Coverage Results" MODIFIED="1717791655132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trashClassifierPython$main.coverage" NAME="main Coverage Results" MODIFIED="1718136788253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trashClassifierPython$verify_paths.coverage" NAME="verify_paths Coverage Results" MODIFIED="1717575640420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trashClassifierPython$SampleImage_Randomizer.coverage" NAME="SampleImage_Randomizer Coverage Results" MODIFIED="1718136643507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trashClassifierPython$Test.coverage" NAME="Test Coverage Results" MODIFIED="1717692531759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trashClassifierPython$rename.coverage" NAME="rename Coverage Results" MODIFIED="1718135879705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
