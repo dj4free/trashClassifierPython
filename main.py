@@ -6,7 +6,7 @@ import random
 from tensorflow.keras import models
 
 # Define Model *best_model from TrashClassifier.ipynb*
-cnn_model = models.load_model('Jupyter/TrashClassifier.h5')
+cnn_model = models.load_model('Jupyter/TrashClassifier_best_model.h5')
 
 # Init Variables
 img_path = "elements/placeholder.png"
