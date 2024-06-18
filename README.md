@@ -3,6 +3,7 @@
 ## Overview
 This project leverages a Convolutional Neural Network (CNN) to classify images of trash into different categories: Cardboard, Food Organic, Glass, Metal, Misc, Paper, Plastic, and Vegetation. The classification system aims to improve the efficiency and sustainability of waste management and recycling processes.
 
+Hosted version [here](https://dolphin-app-hel2u.ondigitalocean.app/).
 
 ## Table of Contents
 - [Overview](#overview)
