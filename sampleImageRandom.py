@@ -2,8 +2,22 @@ import os
 import random
 import shutil
 
+# Define paths to directories where sample images will be stored
+base_dir: str = "data/realwaste/realwaste-main/RealWaste"
+source_dirs: list = [
+    os.path.join(base_dir, "Cardboard"),
+    os.path.join(base_dir, "Food_Organics"),
+    os.path.join(base_dir, "Glass"),
+    os.path.join(base_dir, "Metal"),
+    os.path.join(base_dir, "Miscellaneous_Trash"),
+    os.path.join(base_dir, "Paper"),
+    os.path.join(base_dir, "Plastic"),
+    os.path.join(base_dir, "Vegetation"),
+]
+destination_dir: str = "SampleImages"
 
-def clear_directory(directory):
+
+def clear_directory(directory: str) -> None:
     """
     Clears all files in the specified directory.
 
@@ -21,7 +35,9 @@ def clear_directory(directory):
                 print(f"Failed to delete {file_path}. Reason: {e}")
 
 
-def copy_random_images(source_dirs, destination_dir, num_images=55):
+def copy_random_images(
+    source_dirs: list, destination_dir: str, num_images: int = 55
+) -> None:
     """
     Copies a specified number of random images from each source directory to a destination directory.
 
@@ -37,7 +53,11 @@ def copy_random_images(source_dirs, destination_dir, num_images=55):
 
     for source_dir in source_dirs:
         if os.path.exists(source_dir):
-            images = [f for f in os.listdir(source_dir) if os.path.isfile(os.path.join(source_dir, f))]
+            images = [
+                f
+                for f in os.listdir(source_dir)
+                if os.path.isfile(os.path.join(source_dir, f))
+            ]
             random_images = random.sample(images, min(num_images, len(images)))
 
             for image in random_images:
@@ -50,17 +70,4 @@ def copy_random_images(source_dirs, destination_dir, num_images=55):
 
 
 if __name__ == "__main__":
-    base_dir = 'data/realwaste/realwaste-main/RealWaste'
-    source_dirs = [
-        os.path.join(base_dir, 'Cardboard'),
-        os.path.join(base_dir, 'Food_Organics'),
-        os.path.join(base_dir, 'Glass'),
-        os.path.join(base_dir, 'Metal'),
-        os.path.join(base_dir, 'Miscellaneous_Trash'),
-        os.path.join(base_dir, 'Paper'),
-        os.path.join(base_dir, 'Plastic'),
-        os.path.join(base_dir, 'Vegetation')
-    ]
-    destination_dir = 'SampleImages'
-
     copy_random_images(source_dirs, destination_dir)
